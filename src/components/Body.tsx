@@ -4,7 +4,7 @@ import Experience from "./Experience";
 
 export default function Body() {
   return (
-    <div className="container">
+    <div className="container min-h-full">
       <About></About>
       <Experience></Experience>
       {/* <Projects></Projects> */}

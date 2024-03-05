@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-foreground text-background flex flex-col gap-2 items-center p-4 mt-16">
+    <footer className="relative bg-foreground text-background flex flex-col gap-2 items-center p-4 mt-16 ">
       <p className="text-sm">Karam El-loh © {new Date().getFullYear()}</p>
       <ul className="flex flex-row gap-4 items-center">
         <li>

@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="#about"
-      className="grid grid-cols-1 justify-items-start md:grid-cols-2 md:items-center md:justify-items-end bg-background text-primary gap-2 md:gap-8 md:p-16 p-6">
+      className="grid grid-cols-1 justify-items-start md:grid-cols-2 md:items-start md:justify-items-end bg-background text-primary gap-2 md:gap-8 p-8">
       <h3 className="font-bold text-l uppercase text-accent">About</h3>
       <p className="justify-self-start">
         Hey I'm Karam, a seasoned software engineer that specializes in
@@ -11,9 +11,10 @@ export default function About() {
         features to world-known brands with the highest quality. Whether I'm
         part of a team or working on my own, I excel in clear communication and
         productive engagement with diverse stakeholders. When I'm not creating
-        world-class Android experience, I'm either solving{" "}
+        world-class Android experiences, I'm either solving{" "}
         <a
           className="text-accent-foreground hover:text-accent"
+          target="_blank"
           href="https://leetcode.com/karamjoudah/">
           {" "}
           Leetcode
@@ -21,6 +22,7 @@ export default function About() {
         problems, or working on{" "}
         <a
           className="text-accent-foreground hover:text-accent"
+          target="_blank"
           href="https://www.frontendmentor.io/profile/kjoudah">
           Frontend Mentor
         </a>{" "}
