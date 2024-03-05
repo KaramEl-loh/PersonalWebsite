@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
 import { Montserrat } from "next/font/google";
-import Footer from "@/components/Footer";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "Karam El-loh",
@@ -22,6 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${montserrat.variable}`}>
+      <GoogleAnalytics gaId="GTM-PBFSWWGN"></GoogleAnalytics>
       <body className="text-sm md:text-md lg:text-lg font-sans text-foreground">
         {children}
       </body>
