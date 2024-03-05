@@ -1,2 +1,1 @@
-# karamel-loh.github.io
-My website
+My personal website
